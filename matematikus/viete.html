@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+	<meta charset="utf-8">
+	<title>Francois Viéte és a másodfokú egyenlet</title>
+	<link type="text/css" rel="stylesheet" href="viete.css">
+	<script src="viete.js"></script>
+</head>
+<body>
+	<h1>Francois Viéte</h1>
+	<h2>(1540-1603)francia matematikus</h2>
+	<div class="jobbra">
+		<img src="viete.png" alt="">
+	</div>
+	<h3>Életéről</h3>
+	
+	<p>Foglalkozását tekintve jogász volt. Fiatal korában támadt egy ötlete új csillagászati elmélethez, amely a kopernikuszi rendszert fejlesztette volna tovább. Ennek érdekében kezdett el a matematikával foglalkozni. Tehetséges emberként kezdetben jogászként is sikeres pályája volt. III. Henrik, majd IV. Henrik francia király ügyésze és tanácsosa volt. Később kegyvesztett lett.</p>
+	<h3>Munkásságáról</h3>
+	Kezdetben elsősorban trigonometriával foglalkozott.
+	1584 és 1589 között, kegyvesztettsége idején írta meg fő művét az In artem analyticam isagoge-t. (Bevezetés az analízis tudományába).
+	Ez egy befejezetlensége ellenére is hatalmas munka, benne új algebrai megoldásokkal. Az egyenletmegoldás általános módszereit kereste. Ezért a Diophantosz által megkezdett úton az algebrai jelölésrendszert fejlesztette tovább.
+	Igyekezett szimbólumokkal dolgozni, az együtthatók helyett is betűket használt. Ezek segítségével formulát tudott felírni a másodfokú egyenletek megoldására.
+	A harmadfokú egyenletek megoldásával is foglalkozott.
+	Igen jelentős eredménye a végtelen sorozatok felfedezése.
+	Másodfokú egyenletek gyökök és együtthatók kapcsolatát megadó képletek, a Viete-formulák is őrzik a nevét.
+	<h3>A másodfokú egyenlet</h3>
+	<p>A másodfokú egyenlet általános alakja ax<sup>2</sup>+bx+c=0. Megoldó képlet:</p>
+	<p>Ahol a gyök alatt álló kifejezés a diszkrimináns (D), ami meghatározza a valós gyökök számát. Ha D&lt;0, akkor nincs megoldás, ha D=0, akkor egy megoldás, ha D&gt;0, akkor két megoldás van.</p>
+	<p class="keplet"><img src="megoldokeplet.png" alt=""></p>
+	<form>
+		a = <input type="number" id="a">
+		b = <input type="number" id="b">
+		c = <input type="number" id="c">		
+		<button type="button" onclick="szamol()">Számol</button>
+		<h3>A valós gyökök száma: <span id="gyok">?</span></h3>
+	</form>
+</body>
+</html>
+
+
+
+
+
+
+
+

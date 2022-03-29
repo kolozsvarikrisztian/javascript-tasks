@@ -1,0 +1,121 @@
+body{
+	width: 80%;
+	margin: auto;	
+	text-align: justify;	
+	font-family: Arial;
+	font-size: 1.2em;
+	line-height: 1.5em;
+	background-color: darkgreen;
+}
+
+h1,h2,h3{	
+	letter-spacing: 10px;
+	font-family: cursive;	
+	text-align: center;		
+	color: white;
+	text-shadow: 3px 3px 3px black;	
+	font-variant: small-caps;
+	padding: 5px;
+}
+
+h1{	
+	font-size: 6em;
+	margin: 80px auto;	
+}
+
+h3{
+	font-size: 1.1em;
+	text-align: left;
+	letter-spacing: 2px;
+}
+
+#bal{
+	left: 20px;
+}
+
+#jobb{	
+	right: 20px;	
+}
+
+.kep {
+	position: absolute;
+	top: 20px;
+	width: 13%;
+	margin: 28px;
+	transform: rotate(15deg);
+	box-shadow: 3px 3px 3px gray;
+}
+
+#leiras{
+	clear: both;
+	color: lightgreen;
+	text-align: justify;
+}
+
+header{
+	height: 200px;
+	margin: 20px;
+}
+
+#regisztracio{
+	width: 40%;
+	float: right;	
+	margin: auto;	
+}
+
+ul{
+	color: lightgreen;
+	font-style: italic;
+	font-size: 0.8em;
+	line-height: 1.2em;	
+	list-style-image: url(poker.ico);
+}
+
+li{
+	color: black;
+	font-weight: bold;	
+	font-style: normal;	
+	margin-top: 15px;
+}
+
+#reggomb{
+	font-size: 2em;	
+	background-color: silver;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-family: cursive;
+}
+
+a{		
+	font-style: italic;
+	color: lightgreen;
+}
+
+#forras{
+	float: right;
+	clear: right;
+}
+
+#uzenet{	
+	text-align: center;	
+	color: silver;
+	font-size: 1.5em;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	line-height: 1.5em;
+	height: 80px;
+	letter-spacing: 4px;
+}
+
+input{
+	font-size: 0.9em;
+}
+
+#kezek{
+	width: 55%;
+	float: left;
+}
+
+.kozepre{
+	text-align: center;
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="HU">
+<head>
+	<meta charset="UTF-8" />
+	<title>Póker-klub</title>
+	<link type="text/css" rel="stylesheet" href="poker.css">
+	<script>
+		function regisztral()
+		{
+			var most = new Date();
+			var kor = most.getFullYear()-parseInt(ev.value);
+			if(kor<18)
+				uzenet.innerHTML = "Sajnálom "+nev.value+",<br>várnod kell "+(18-kor)+ " évet!";
+			else
+				uzenet.innerHTML = "Gratulálok "+nev.value+",<br>klubtag lettél!";			
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<img src="poker.jpg" class="kep" id="bal">
+		<h1>Póker-klub</h1>	
+		<img src="poker.jpg" class="kep" id="jobb">
+	</header>
+	<section><p id="leiras">A póker az egyik legnépszerűbb kártyajáték a világon. A lényege, hogy a játékosok a nyílt vagy zárt kártyáikból a legjobbat kihozva elvigyék az asztal közepén lévő kasszát (angolul pot-ot). Ezt a legjobb lap kombinációval tehetik meg, tehát minden játékosnak arra kell törekednie, hogy a saját kezében legyen a legjobb. A póker szót nem csak a hagyományos, asztalnál vagy számítógépnél játszott kártyajátékra szokták használni, hanem az úgynevezett videopókerre is, ami a játékgépek egy fajtája. Ott a játékos és a játékgép üzemeltetője között megy a játék.</p>
+	</section>
+	<section id="kezek"><h2>A pókerkezek</h2>
+	<ul>
+	<li>Royal flös (royal flush)</li>
+		A legerősebb lapkombináció. Egyszínű 10-es, bubi, dáma, király, ász lapokból áll. Ha két ilyen találkozik, akkor döntetlen (osztozás a nyereményen) van. Példa: kőr 10-es, kőr bubi, kőr dáma, kőr király, kőr ász.
+	<li>Színsor (straight flush)</li>
+		Öt egyszínű sorba rendezhető lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, akkor döntetlen (osztozás a nyereményen) van. Példa: treff 5-ös, treff 6-os, treff 7-es, treff 8-as, treff 9-es.
+	<li>Póker (four of a kind)</li>
+		Négy ugyanolyan számozású vagy jelű lapból és egy akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb póker nyer. Példa: kőr 7-es, pikk 7-es, treff 7-es, káró 7-es, pikk 10-es.
+	<li>Full (full house)</li>
+		Három ugyanolyan számozású vagy jelű lapból és két másik ugyanolyan számozású vagy jelű lapból áll. Ha két ilyen találkozik, a magasabb drill nyer. Ha egyforma, a magasabb pár nyer. Példa: káró bubi, treff bubi, pikk bubi, kőr 8-as, pikk 8-as.
+	<li>Szín (flush)</li>
+		Öt ugyanolyan színű lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, a második legmagasabb dönt, és így tovább… Példa: pikk 2-es, pikk 6-os, pikk 9-es, pikk dáma, pikk ász.
+	<li>Sor (straight)</li>
+		Öt sorba rendezhető lapból áll. Ha két ilyen találkozik, a legmagasabb lap dönt. Ha egyforma, a színerősség dönt. Példa: kőr 8-as, káró 9-es, pikk 10-es, pikk bubi, treff dáma.
+	<li>Drill (three of a kind)</li>
+		Három ugyanolyan számozású vagy jelű lapból és két akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb drill nyer. Ha egyforma, a magasabb semleges lap, majd az alacsonyabb dönt. Példa: kőr 8-as, treff 8-as, pikk 8-as, pikk 5-ös, káró bubi.
+	<li>Két pár (two pairs)</li>
+		Kétszer két ugyanolyan számozású vagy jelű lapból áll. Ha két ilyen találkozik, a magasabb pár, majd az alacsonyabb, majd a semleges lap erőssége dönt. Példa: pikk 5-ös, káró 5-ös, pikk dáma, treff dáma, káró 2-es.
+	<li>Egy pár (one pair)</li>
+		Két ugyanolyan számozású vagy jelű lapból és három akármilyen másik lapból áll. Ha két ilyen találkozik, a magasabb pár nyer. Ha egyforma, a semleges lapok döntenek. Példa: kőr 7-es, pikk 7-es, treff 8-as, káró bubi, pikk 10-es.
+	<li>Magas lap (high card)</li>
+		Bármilyen lap.
+	</ul>
+	</section>
+	<section id="regisztracio">
+		<h2>Regisztráció</h2>
+		<h3>Beceneved: <input type="text" id="nev"></h3>
+		<h3>Születési éved: <input type="number" id="ev" min=1920></h3>
+		<p><img src="kiraly.png" alt="A lapok rangsorában a második a király" title="A lapok rangsorában a második a király"></p>
+		<p class="kozepre"><input type="button" id="reggomb" value="Regisztráció" onclick="regisztral()"></p>
+		<p id="uzenet"></p>		
+	</section>
+	<p id="forras"><a href="https://hu.wikipedia.org/wiki/P%C3%B3ker" target="_blank">Forrás</a></p>
+	
+</body>
+</html>

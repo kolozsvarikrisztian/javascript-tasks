@@ -1,0 +1,52 @@
+body
+{
+	background-image: url('hatter.jpg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: 'Times New Roman';
+	color: #741B47;
+	padding-left: 5em;
+	padding-right: 5em;
+}
+h1
+{
+	text-align:center;
+	font-family: Verdana;
+	font-size:2em;
+	margin-bottom:0em;
+}
+h2
+{				
+	text-align:center;
+	font-family: Verdana;
+	font-size:1.2em;
+	font-style: italic;
+	margin-top: 0em;
+}
+h3
+{								
+	font-family: Verdana;
+	font-size:1.2em;
+	text-decoration:underline;
+	font-style: italic;	
+}
+div.jobbra
+{
+	float:right;
+}
+
+div.jobbra img
+{
+	width: 176px;
+	height: 227px;
+}
+
+.keplet
+{
+	text-align:center;
+}
+form
+{
+	text-align:left;
+	font-size:1.2em;
+}

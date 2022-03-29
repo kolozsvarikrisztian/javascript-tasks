@@ -1,0 +1,16 @@
+Francois Viéte
+(1540-1603)francia matematikus
+Életérõl
+Foglalkozását tekintve jogász volt. Fiatal korában támadt egy ötlete új csillagászati elmélethez, amely a kopernikuszi rendszert fejlesztette volna tovább. Ennek érdekében kezdett el a matematikával foglalkozni. Tehetséges emberként kezdetben jogászként is sikeres pályája volt. III. Henrik, majd IV. Henrik francia király ügyésze és tanácsosa volt. Késõbb kegyvesztett lett.
+Munkásságáról
+Kezdetben elsõsorban trigonometriával foglalkozott.
+1584 és 1589 között, kegyvesztettsége idején írta meg fõ mûvét az In artem analyticam isagoge-t. (Bevezetés az analízis tudományába).
+Ez egy befejezetlensége ellenére is hatalmas munka, benne új algebrai megoldásokkal. Az egyenletmegoldás általános módszereit kereste. Ezért a Diophantosz által megkezdett úton az algebrai jelölésrendszert fejlesztette tovább.
+Igyekezett szimbólumokkal dolgozni, az együtthatók helyett is betûket használt. Ezek segítségével formulát tudott felírni a másodfokú egyenletek megoldására.
+A harmadfokú egyenletek megoldásával is foglalkozott.
+Igen jelentõs eredménye a végtelen sorozatok felfedezése.
+Másodfokú egyenletek gyökök és együtthatók kapcsolatát megadó képletek, a Viete-formulák is õrzik a nevét.
+A másodfokú egyenlet
+A másodfokú egyenlet általános alakja ax2+bx+c=0. Megoldó képlet:
+Ahol a gyök alatt álló kifejezés a diszkrimináns (D), ami meghatározza a valós gyökök számát. Ha D&lt;0, akkor nincs megoldás, ha D=0, akkor egy megoldás, ha D&gt;0, akkor két megoldás van.
+A valós gyökök száma:
